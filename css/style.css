@@ -62,7 +62,7 @@ address {
 }
 .link:hover,
 .link:focus,
-.logo-part1,
+.logo--part1,
 .current {
   color: var(--accent-color);
 }
@@ -81,7 +81,6 @@ address {
   padding-bottom: 25px;
   margin-right: auto;
   margin-left: auto;
-  /* background-color: aquamarine; */
 }
 .grid {
   display: flex;
@@ -148,7 +147,7 @@ address {
   line-height: 1.143;
   letter-spacing: 0.02em;
 }
-.header-line {
+.header--line {
   border-bottom: 1px solid #ececec;
 }
 .logo {
@@ -158,10 +157,10 @@ address {
   line-height: 1.192;
   display: flex;
 }
-.logo-part2 {
+.logo--part2 {
   color: var(--logo-text-color);
 }
-.header .logo {
+.header--logo {
   margin-right: 90px;
 }
 .navigation {
@@ -172,7 +171,7 @@ address {
 .menu {
   display: inline-flex;
 }
-.menu-link {
+.menu__link {
   position: relative;
 }
 .current::after {
@@ -186,7 +185,7 @@ address {
   border-radius: 2px;
 }
 
-.menu-item:not(:last-child) {
+.menu__item:not(:last-child) {
   margin-right: 50px;
 }
 .header .container {
