@@ -141,6 +141,8 @@ address {
 .projets-title {
   color: var(--title-color);
 }
+
+/* header */
 .header {
   max-height: 80px;
   font-weight: 500;
@@ -168,6 +170,7 @@ address {
   align-items: center;
   margin-right: auto;
 }
+/* menu */
 .menu {
   display: inline-flex;
 }
@@ -217,6 +220,7 @@ address {
   stroke: currentColor;
 }
 
+/* hero */
 .hero {
   /* min-height: 100vh; */
   max-width: 1600px;
@@ -245,6 +249,7 @@ address {
   color: var(--dark-bg-text-color);
 }
 
+/* feature */
 .feature-icon {
   width: 70px;
   height: 70px;
@@ -270,6 +275,7 @@ address {
   margin-bottom: 0;
 }
 
+/* gallery */
 .gallery-item {
   --grid-item: 3;
   position: relative;
@@ -293,6 +299,8 @@ address {
   text-transform: uppercase;
   color: var(--dark-bg-text-color);
 }
+
+/* team */
 .team {
   --grid-item: 4;
   font-size: 16px;
@@ -316,6 +324,7 @@ address {
   background-color: var(--light-bg-color);
 }
 
+/* social icons */
 .social-icons {
   display: inline-flex;
 }
@@ -350,6 +359,7 @@ address {
   background-color: var(--accent-color);
 }
 
+/* clients */
 .clients {
   padding-top: 0;
   padding-bottom: 0;
@@ -382,8 +392,8 @@ address {
 .clients-icons-link:focus .icon {
   fill: var(--accent-color);
 }
-/* footer */
 
+/* footer */
 .footer-container-address {
   --grid-item: 4;
   display: inline-block;
@@ -480,6 +490,7 @@ address {
 }
 
 /* Portfolio */
+/* projects */
 .projects {
   --grid-item: 3;
   font-size: 16px;
@@ -553,6 +564,7 @@ address {
   opacity: 1;
 }
 
+/* filter */
 .filter-content {
   display: flex;
   justify-content: center;
@@ -609,24 +621,6 @@ address {
 .is-hidden .modal {
   transform: translate(100%, 100%) scale(0.2);
 }
-.modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  max-width: 530px;
-  min-height: 580px;
-  padding: 40px 30px;
-  border-radius: 4px;
-  background-color: var(--light-bg-color);
-  transition: transform 500ms ease-in-out 300ms;
-}
-/* .close {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-} */
 .btn-close {
   position: absolute;
   top: 8px;
@@ -649,10 +643,23 @@ address {
   transform: translate(-50%, -50%);
   fill: var(--logo-text-color);
 }
-
 .btn-close:hover .icon {
   fill: var(--accent-color);
   background-color: transparent;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 530px;
+  min-height: 580px;
+  padding: 40px 30px;
+  border-radius: 4px;
+  background-color: var(--light-bg-color);
+  transition: transform 500ms ease-in-out 300ms;
 }
 
 .modal-title {
@@ -728,8 +735,8 @@ address {
   resize: none;
   padding-left: 16px;
 }
-/* checkbox agreement */
 
+/* checkbox agreement */
 .modal-agreement {
   position: relative;
   display: inline-flex;
