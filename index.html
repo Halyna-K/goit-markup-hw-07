@@ -486,16 +486,15 @@
 
     <!-- footer-->
     <footer class="dark-bg">
-      <div class="container" id="contacts">
-        <ul class="list grid footer">
-          <li class="grid__item footer__address">
-            <!-- <div class="footer__address"> -->
-            <a class="link logo" href="/" lang="en"
+      <div class="container footer" id="contacts">
+        <ul class="list grid footer-list">
+          <li class="grid__item">
+            <a class="link logo footer-list__title" href="/" lang="en"
               ><span class="logo--part1">Web</span>Studio</a
             >
-            <address class="footer-address">
-              <ul class="list">
-                <li class="footer-contacts-item">
+            <address>
+              <ul class="list footer-contacts">
+                <li class="footer-contacts__item">
                   <a
                     class="link"
                     href="https://goo.gl/maps/h1MNrULQTxqJ9o7u8"
@@ -505,80 +504,78 @@
                     г. Киев, пр-т Леси Украинки, 26
                   </a>
                 </li>
-                <li class="footer-contacts-item footer-contacts">
+                <li class="footer-contacts__item footer-contacts--text-color">
                   <a class="link" href="mailto:info@example.com">
                     info@example.com
                   </a>
                 </li>
-                <li class="footer-contacts-item footer-contacts">
+                <li class="footer-contacts__item footer-contacts--text-color">
                   <a class="link" href="tel:+380961111111">
                     +38 096 111 11 11
                   </a>
                 </li>
               </ul>
             </address>
-            <!-- </div> -->
           </li>
-          <li class="grid__item footer__social">
-            <!-- <div class="footer__social"> -->
-            <h3 class="footer-social-title">присоединяйтесь</h3>
-            <div class="footer-social">
-              <ul class="list social-icons">
-                <li class="social-icons__item">
-                  <a
-                    href=""
-                    class="social-icons__link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <svg class="icon">
-                      <use href="./images/sprite.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-icons__item">
-                  <a
-                    href=""
-                    class="social-icons__link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <svg class="icon">
-                      <use href="./images/sprite.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-icons__item">
-                  <a
-                    href=""
-                    class="social-icons__link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <svg class="icon">
-                      <use href="./images/sprite.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-icons__item">
-                  <a
-                    href=""
-                    class="social-icons__link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <svg class="icon">
-                      <use href="./images/sprite.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <!-- </div> -->
+          <li class="grid__item">
+            <h3 class="footer-social__title footer-list__title">
+              присоединяйтесь
+            </h3>
+            <ul class="list social-icons footer-social">
+              <li class="social-icons__item">
+                <a
+                  href=""
+                  class="social-icons__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="icon">
+                    <use href="./images/sprite.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-icons__item">
+                <a
+                  href=""
+                  class="social-icons__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="icon">
+                    <use href="./images/sprite.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-icons__item">
+                <a
+                  href=""
+                  class="social-icons__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="icon">
+                    <use href="./images/sprite.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-icons__item">
+                <a
+                  href=""
+                  class="social-icons__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="icon">
+                    <use href="./images/sprite.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
           </li>
-          <li class="grid__item footer__subscribe">
-            <!-- <div class="footer__subscribe"> -->
-            <h3 class="footer-form__title">Подпишитесь на рассылку</h3>
+          <li class="grid__item">
+            <h3 class="footer-form__title footer__title">
+              Подпишитесь на рассылку
+            </h3>
             <form class="footer-form" for="user_email">
               <input
                 class="footer-form__email"
@@ -596,7 +593,6 @@
                 </svg>
               </label>
             </form>
-            <!-- </div> -->
           </li>
         </ul>
       </div>
